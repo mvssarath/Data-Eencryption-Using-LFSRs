@@ -1,0 +1,2 @@
+vhdtdtfi -lib work d_ff.vhd -prj dataencription -o d_ff.spl -module d_ff -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e d_ff.spl C:/Users/Ghost/Documents/Xilinx_Workspaces/dataencription/d_ff.sym 

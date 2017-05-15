@@ -1,0 +1,7 @@
+vhdtdtfi -lib work LFSR.vhd -prj dataencription -o LFSR.spl -module LFSR -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e LFSR.spl C:/Users/Ghost/Documents/Xilinx_Workspaces/dataencription/LFSR.sym 
+xst -intstyle ise -ifn "C:/Users/Ghost/Documents/Xilinx_Workspaces/dataencription/LFSR.xst" -ofn "C:/Users/Ghost/Documents/Xilinx_Workspaces/dataencription/LFSR.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 LFSR.ngc LFSR.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o LFSR_map.ncd LFSR.ngd LFSR.pcf 
+par -w -intstyle ise -ol high -t 1 LFSR_map.ncd LFSR.ncd LFSR.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml LFSR.twx LFSR.ncd -o LFSR.twr LFSR.pcf 

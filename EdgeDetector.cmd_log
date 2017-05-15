@@ -1,0 +1,2 @@
+vhdtdtfi -lib work EdgeDetector.vhd -prj dataencription -o EdgeDetector.spl -module EdgeDetector -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e EdgeDetector.spl C:/Users/Ghost/Documents/Xilinx_Workspaces/dataencription/EdgeDetector.sym 

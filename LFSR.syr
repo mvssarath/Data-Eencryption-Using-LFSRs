@@ -1,0 +1,377 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.31 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.31 secs
+ 
+--> Reading design: LFSR.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "LFSR.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "LFSR"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : LFSR
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Ghost/Documents/Xilinx_Workspaces/dataencription/LFSR.vhd" in Library work.
+Entity <LFSR> compiled.
+Entity <LFSR> (Architecture <beh>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <LFSR> in library <work> (architecture <beh>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <LFSR> in library <work> (Architecture <beh>).
+WARNING:Xst:819 - "C:/Users/Ghost/Documents/Xilinx_Workspaces/dataencription/LFSR.vhd" line 17: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <din>
+Entity <LFSR> analyzed. Unit <LFSR> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <LFSR>.
+    Related source file is "C:/Users/Ghost/Documents/Xilinx_Workspaces/dataencription/LFSR.vhd".
+WARNING:Xst:737 - Found 1-bit latch for signal <LFSR_sig_0>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <LFSR_sig_1>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <LFSR_sig_2>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <LFSR_sig_3>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <LFSR_sig_4>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <LFSR_sig_5>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <LFSR_sig_6>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <LFSR_sig_7>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 1-bit xor2 for signal <LFSR_sig_3$xor0000>.
+    Found 1-bit xor2 for signal <LFSR_sig_4$xor0000>.
+    Found 1-bit xor2 for signal <LFSR_sig_5$xor0000>.
+Unit <LFSR> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Latches                                              : 8
+ 1-bit latch                                           : 8
+# Xors                                                 : 3
+ 1-bit xor2                                            : 3
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Latches                                              : 8
+ 1-bit latch                                           : 8
+# Xors                                                 : 3
+ 1-bit xor2                                            : 3
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <LFSR> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block LFSR, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : LFSR.ngr
+Top Level Output File Name         : LFSR
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 18
+
+Cell Usage :
+# BELS                             : 24
+#      LUT2                        : 16
+#      LUT3                        : 5
+#      LUT4                        : 3
+# FlipFlops/Latches                : 8
+#      LDCP                        : 8
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 17
+#      IBUF                        : 9
+#      OBUF                        : 8
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                       14  out of   4656     0%  
+ Number of Slice Flip Flops:              8  out of   9312     0%  
+ Number of 4 input LUTs:                 24  out of   9312     0%  
+ Number of IOs:                          18
+ Number of bonded IOBs:                  18  out of    232     7%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+en                                 | BUFGP                  | 8     |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-------------------------------------------+------------------------+-------+
+Control Signal                             | Buffer(FF name)        | Load  |
+-------------------------------------------+------------------------+-------+
+LFSR_sig_0__and0000(LFSR_sig_0__and00001:O)| NONE(LFSR_sig_0)       | 1     |
+LFSR_sig_0__and0001(LFSR_sig_0__and00011:O)| NONE(LFSR_sig_0)       | 1     |
+LFSR_sig_1__and0000(LFSR_sig_1__and00001:O)| NONE(LFSR_sig_1)       | 1     |
+LFSR_sig_1__and0001(LFSR_sig_1__and00011:O)| NONE(LFSR_sig_1)       | 1     |
+LFSR_sig_2__and0000(LFSR_sig_2__and00001:O)| NONE(LFSR_sig_2)       | 1     |
+LFSR_sig_2__and0001(LFSR_sig_2__and00011:O)| NONE(LFSR_sig_2)       | 1     |
+LFSR_sig_3__and0000(LFSR_sig_3__and00001:O)| NONE(LFSR_sig_3)       | 1     |
+LFSR_sig_3__and0001(LFSR_sig_3__and00011:O)| NONE(LFSR_sig_3)       | 1     |
+LFSR_sig_4__and0000(LFSR_sig_4__and00001:O)| NONE(LFSR_sig_4)       | 1     |
+LFSR_sig_4__and0001(LFSR_sig_4__and00011:O)| NONE(LFSR_sig_4)       | 1     |
+LFSR_sig_5__and0000(LFSR_sig_5__and00001:O)| NONE(LFSR_sig_5)       | 1     |
+LFSR_sig_5__and0001(LFSR_sig_5__and00011:O)| NONE(LFSR_sig_5)       | 1     |
+LFSR_sig_6__and0000(LFSR_sig_6__and00001:O)| NONE(LFSR_sig_6)       | 1     |
+LFSR_sig_6__and0001(LFSR_sig_6__and00011:O)| NONE(LFSR_sig_6)       | 1     |
+LFSR_sig_7__and0000(LFSR_sig_7__and00001:O)| NONE(LFSR_sig_7)       | 1     |
+LFSR_sig_7__and0001(LFSR_sig_7__and00011:O)| NONE(LFSR_sig_7)       | 1     |
+-------------------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 2.356ns (Maximum Frequency: 424.448MHz)
+   Minimum input arrival time before clock: 3.561ns
+   Maximum output required time after clock: 4.581ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'en'
+  Clock period: 2.356ns (frequency: 424.448MHz)
+  Total number of paths / destination ports: 11 / 8
+-------------------------------------------------------------------------
+Delay:               2.356ns (Levels of Logic = 1)
+  Source:            LFSR_sig_0 (LATCH)
+  Destination:       LFSR_sig_7 (LATCH)
+  Source Clock:      en falling
+  Destination Clock: en falling
+
+  Data Path: LFSR_sig_0 to LFSR_sig_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDCP:G->Q             5   0.676   0.668  LFSR_sig_0 (LFSR_sig_0)
+     LUT3:I2->O            1   0.704   0.000  LFSR_sig_7_mux00011 (LFSR_sig_7_mux0001)
+     LDCP:D                    0.308          LFSR_sig_7
+    ----------------------------------------
+    Total                      2.356ns (1.688ns logic, 0.668ns route)
+                                       (71.6% logic, 28.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'en'
+  Total number of paths / destination ports: 16 / 8
+-------------------------------------------------------------------------
+Offset:              3.561ns (Levels of Logic = 2)
+  Source:            l_init (PAD)
+  Destination:       LFSR_sig_7 (LATCH)
+  Destination Clock: en falling
+
+  Data Path: l_init to LFSR_sig_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            24   1.218   1.331  l_init_IBUF (l_init_IBUF)
+     LUT3:I1->O            1   0.704   0.000  LFSR_sig_7_mux00011 (LFSR_sig_7_mux0001)
+     LDCP:D                    0.308          LFSR_sig_7
+    ----------------------------------------
+    Total                      3.561ns (2.230ns logic, 1.331ns route)
+                                       (62.6% logic, 37.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'en'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              4.581ns (Levels of Logic = 1)
+  Source:            LFSR_sig_0 (LATCH)
+  Destination:       LFSR_out<0> (PAD)
+  Source Clock:      en falling
+
+  Data Path: LFSR_sig_0 to LFSR_out<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDCP:G->Q             5   0.676   0.633  LFSR_sig_0 (LFSR_sig_0)
+     OBUF:I->O                 3.272          LFSR_out_0_OBUF (LFSR_out<0>)
+    ----------------------------------------
+    Total                      4.581ns (3.948ns logic, 0.633ns route)
+                                       (86.2% logic, 13.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 6.84 secs
+ 
+--> 
+
+Total memory usage is 286544 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    9 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

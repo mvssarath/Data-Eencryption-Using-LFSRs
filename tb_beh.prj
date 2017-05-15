@@ -1,0 +1,6 @@
+vhdl work "d_ff.vhd"
+vhdl work "LFSR.vhd"
+vhdl work "EdgeDetector.vhd"
+vhdl work "debouncer.vhd"
+vhdl work "Dataencrypt_decrypt.vhd"
+vhdl work "tb.vhd"

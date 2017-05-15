@@ -1,0 +1,27 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Ghost/Documents/Xilinx_Workspaces/dataencription/tb_isim_beh.exe -prj C:/Users/Ghost/Documents/Xilinx_Workspaces/dataencription/tb_beh.prj work.tb 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Ghost/Documents/Xilinx_Workspaces/dataencription/d_ff.vhd" into library work
+Parsing VHDL file "C:/Users/Ghost/Documents/Xilinx_Workspaces/dataencription/LFSR.vhd" into library work
+Parsing VHDL file "C:/Users/Ghost/Documents/Xilinx_Workspaces/dataencription/EdgeDetector.vhd" into library work
+Parsing VHDL file "C:/Users/Ghost/Documents/Xilinx_Workspaces/dataencription/debouncer.vhd" into library work
+Parsing VHDL file "C:/Users/Ghost/Documents/Xilinx_Workspaces/dataencription/Dataencrypt_decrypt.vhd" into library work
+Parsing VHDL file "C:/Users/Ghost/Documents/Xilinx_Workspaces/dataencription/tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture behavioral of entity debouncer [debouncer_default]
+Compiling architecture beh of entity d_ff [d_ff_default]
+Compiling architecture behavioral of entity EdgeDetector [edgedetector_default]
+Compiling architecture beh of entity LFSR [lfsr_default]
+Compiling architecture behavioral of entity Dataencrypt_decrypt [dataencrypt_decrypt_default]
+Compiling architecture behavior of entity tb
+Time Resolution for simulation is 1ps.
+Compiled 14 VHDL Units
+Built simulation executable C:/Users/Ghost/Documents/Xilinx_Workspaces/dataencription/tb_isim_beh.exe
+Fuse Memory Usage: 34212 KB
+Fuse CPU Usage: 546 ms

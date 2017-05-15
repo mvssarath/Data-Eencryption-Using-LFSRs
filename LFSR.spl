@@ -1,0 +1,7 @@
+[Inputs]
+l_init
+en
+=din[7:0]=
+[Outputs]
+=LFSR_out[7:0]=
+[BiDir]

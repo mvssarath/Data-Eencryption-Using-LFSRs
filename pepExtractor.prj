@@ -1,0 +1,5 @@
+work	"Dataencrypt_decrypt.vhd"
+work	"EdgeDetector.vhd"
+work	"LFSR.vhd"
+work	"d_ff.vhd"
+work	"debouncer.vhd"

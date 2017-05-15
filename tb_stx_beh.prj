@@ -1,0 +1,6 @@
+vhdl isim_temp "d_ff.vhd"
+vhdl isim_temp "LFSR.vhd"
+vhdl isim_temp "EdgeDetector.vhd"
+vhdl isim_temp "debouncer.vhd"
+vhdl isim_temp "Dataencrypt_decrypt.vhd"
+vhdl isim_temp "tb.vhd"

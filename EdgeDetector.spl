@@ -1,0 +1,6 @@
+[Inputs]
+db_in
+clk
+[Outputs]
+LFSR_enable
+[BiDir]

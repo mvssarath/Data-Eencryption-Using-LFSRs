@@ -1,0 +1,2 @@
+vhdl isim_temp "d_ff.vhd"
+vhdl isim_temp "EdgeDetector.vhd"

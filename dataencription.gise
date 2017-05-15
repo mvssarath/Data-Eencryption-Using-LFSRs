@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="dataencription.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="EdgeDetector.spl"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="EdgeDetector.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="EdgeDetector_stx_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="LFSR.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="LFSR.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="LFSR.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="LFSR.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="LFSR.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="LFSR.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="LFSR.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="LFSR.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="LFSR.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="LFSR.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="LFSR.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="LFSR.ptwx"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="LFSR.spl"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="LFSR.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="LFSR.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="LFSR.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="LFSR.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="LFSR.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="LFSR.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="LFSR.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="LFSR.xst"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="LFSR_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="LFSR_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="LFSR_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="LFSR_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="LFSR_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="LFSR_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="LFSR_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="LFSR_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="LFSR_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="LFSR_par.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="LFSR_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="LFSR_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="LFSR_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="LFSR_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="LFSR_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="LFSR_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="d_ff.spl"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="d_ff.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="d_ff_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="debouncer_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="tb_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1447373616" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1447373616">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1447373654" xil_pn:in_ck="3373481616556529915" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1447373654">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Dataencrypt_decrypt.vhd"/>
+      <outfile xil_pn:name="EdgeDetector.vhd"/>
+      <outfile xil_pn:name="LFSR.vhd"/>
+      <outfile xil_pn:name="d_ff.vhd"/>
+      <outfile xil_pn:name="debouncer.vhd"/>
+      <outfile xil_pn:name="tb.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1447373617" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-779355537548284490" xil_pn:start_ts="1447373617">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1447373617" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-2894355380392999048" xil_pn:start_ts="1447373617">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1447373617" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-7174811182145593042" xil_pn:start_ts="1447373617">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1447373654" xil_pn:in_ck="3373481616556529915" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1447373654">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Dataencrypt_decrypt.vhd"/>
+      <outfile xil_pn:name="EdgeDetector.vhd"/>
+      <outfile xil_pn:name="LFSR.vhd"/>
+      <outfile xil_pn:name="d_ff.vhd"/>
+      <outfile xil_pn:name="debouncer.vhd"/>
+      <outfile xil_pn:name="tb.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1447373657" xil_pn:in_ck="3373481616556529915" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-6038693375435272316" xil_pn:start_ts="1447373654">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="tb_beh.prj"/>
+      <outfile xil_pn:name="tb_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1447373658" xil_pn:in_ck="1186589553327596325" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="1974431234645556231" xil_pn:start_ts="1447373657">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="tb_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1447371285" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1447371285">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1447371285" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="2136362733690019320" xil_pn:start_ts="1447371285">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+    </transform>
+    <transform xil_pn:end_ts="1447371285" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-3670000857080845154" xil_pn:start_ts="1447371285">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+    </transform>
+    <transform xil_pn:end_ts="1447371285" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1447371285">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1447371285" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="8273607680654318902" xil_pn:start_ts="1447371285">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+    </transform>
+    <transform xil_pn:end_ts="1447371285" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-3893270297158069842" xil_pn:start_ts="1447371285">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+    </transform>
+    <transform xil_pn:end_ts="1447371285" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-6185440769969788632" xil_pn:start_ts="1447371285">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+    </transform>
+    <transform xil_pn:end_ts="1447371298" xil_pn:in_ck="5372883683868216524" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-1780597799818778191" xil_pn:start_ts="1447371285">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="LFSR.lso"/>
+      <outfile xil_pn:name="LFSR.ngc"/>
+      <outfile xil_pn:name="LFSR.ngr"/>
+      <outfile xil_pn:name="LFSR.prj"/>
+      <outfile xil_pn:name="LFSR.stx"/>
+      <outfile xil_pn:name="LFSR.syr"/>
+      <outfile xil_pn:name="LFSR.xst"/>
+      <outfile xil_pn:name="LFSR_stx_beh.prj"/>
+      <outfile xil_pn:name="LFSR_vhdl.prj"/>
+      <outfile xil_pn:name="LFSR_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1447371298" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="3719144300862460129" xil_pn:start_ts="1447371298">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+    </transform>
+    <transform xil_pn:end_ts="1447371307" xil_pn:in_ck="3332751683613" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-744730525503364319" xil_pn:start_ts="1447371298">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="LFSR.bld"/>
+      <outfile xil_pn:name="LFSR.ngd"/>
+      <outfile xil_pn:name="LFSR_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1447371317" xil_pn:in_ck="3332751683614" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-5849673150125579957" xil_pn:start_ts="1447371307">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="LFSR.pcf"/>
+      <outfile xil_pn:name="LFSR_map.map"/>
+      <outfile xil_pn:name="LFSR_map.mrp"/>
+      <outfile xil_pn:name="LFSR_map.ncd"/>
+      <outfile xil_pn:name="LFSR_map.ngm"/>
+      <outfile xil_pn:name="LFSR_map.xrpt"/>
+      <outfile xil_pn:name="LFSR_summary.xml"/>
+      <outfile xil_pn:name="LFSR_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1447371334" xil_pn:in_ck="3952382296176631351" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-5563652517805085498" xil_pn:start_ts="1447371317">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="LFSR.ncd"/>
+      <outfile xil_pn:name="LFSR.pad"/>
+      <outfile xil_pn:name="LFSR.par"/>
+      <outfile xil_pn:name="LFSR.ptwx"/>
+      <outfile xil_pn:name="LFSR.unroutes"/>
+      <outfile xil_pn:name="LFSR.xpi"/>
+      <outfile xil_pn:name="LFSR_pad.csv"/>
+      <outfile xil_pn:name="LFSR_pad.txt"/>
+      <outfile xil_pn:name="LFSR_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1447371334" xil_pn:in_ck="3332751683482" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1447371331">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="LFSR.twr"/>
+      <outfile xil_pn:name="LFSR.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+  </transforms>
+
+</generated_project>
